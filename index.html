@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- If IE use the latest rendering engine -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Set the page to the width of the device and set the zoom level -->
+  <meta name="viewport" content="width = device-width, initial-scale = 1">
+  <title>
+    Movie Factory
+  </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <style>
+  .bg-black {
+    background-color: #000;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+
+  .text-main {
+    color: #cdcdcd;
+  }
+
+  .bg-main {
+    background-color: #161D24;
+  }
+
+
+  #content>div {
+    position: relative;
+    padding: 5px;
+  }
+
+  #content>div>div {
+    background-color: #101010;
+    height: 284px;
+  }
+
+  #content img {
+    float: left;
+    padding: 8px;
+  }
+
+	#content h3 {
+    padding-top: 5px;
+  }
+  #content p {}
+
+  #content button {
+    background-color: #101010;
+    color: green;
+    border: none;
+    position: absolute;
+    bottom: 10px;
+  }
+
+  #content span {
+    font-size: 2rem;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+
+  }
+  </style>
+</head>
+
+<body class="text-main">
+  <div class="container">
+    <!-- HEADER 1 -->
+    <header class="row bg-black">
+      <div class="col text-center">
+        <h1 class="text-white">Movie Factory</h1>
+      </div>
+    </header>
+    <!-- NAV BAR -->
+    <nav class="row bg-dark">
+      <div class="col">
+        <a href="#" class="text-light">
+          <h3>Home</h3>
+        </a>
+      </div>
+    </nav>
+    <!-- HEADER 2 -->
+    <header class="row text-light bg-main">
+      <div class="offset-4 col-4 offset-lg-5 col-lg-2 text-center">
+        <h3 text-light>Movies</h3>
+      </div>
+      <div class="offset-2 col-2 offset-lg-4 col-lg-1"><a href="#" class="text-main s-5">&#9660;Sort</a></div>
+    </header>
+    <!-- MAIN CONTENT -->
+    <div class="row bg-main" id="content">
+
+    </div>
+    <!-- FOOTER -->
+    <footer class="row bg-black text-white">
+      <div class="col text-center">
+        <h3>Movie Factory</h3>
+      </div>
+    </footer>
+  </div>
+  <script src="js/data.json"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
