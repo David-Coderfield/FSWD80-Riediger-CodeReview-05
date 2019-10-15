@@ -1,0 +1,164 @@
+var database = `[
+	{
+		"id":"01",
+		"title":"Adams Apples",
+		"category":"mov",
+		"img":"adamsapples.jpg",
+		"likes":"51",
+		"isLiked":"false",
+		"descr":"A lorem sentenced to community service at a church clashes with the blindly devotional priest."
+	},
+	{
+		"id":"02",
+		"title":"Alien",
+		"category":"mov",
+		"img":"alien.jpg",
+		"likes":"89",
+		"isLiked":"false",
+		"descr":"a space merchant vessel perceives an unknown transmission as a distress call..."
+	},
+	{
+		"id":"03",
+		"title":"American Psycho",
+		"category":"mov",
+		"img":"americanpsycho.jpg",
+		"likes":"64",
+		"isLiked":"false",
+		"descr":"Wealthy Lorem Ipsum hides his violent psychopathic ego from his co-workers and friends..."
+	},
+	{
+		"id":"04",
+		"title":"Clerks II",
+		"category":"mov",
+		"img":"clerksii.jpg",
+		"likes":"128",
+		"isLiked":"false",
+		"descr":"Dante and Randal settle at the fast food empire Mooby's."
+	},
+	{
+		"id":"05",
+		"title":"Eternal Sunshine",
+		"category":"mov",
+		"img":"eternalsunshineofthespotlessmind.jpg",
+		"likes":"36",
+		"isLiked":"false",
+		"descr":"When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories."
+	},
+	{
+		"id":"06",
+		"title":"Full Metal Jacket",
+		"category":"mov",
+		"img":"fullmetaljacket.jpg",
+		"likes":"99",
+		"isLiked":"false",
+		"descr":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, tempora."
+	},
+	{
+		"id":"07",
+		"title":"Gattaca",
+		"category":"mov",
+		"img":"gattaca.jpg",
+		"likes":"20",
+		"isLiked":"false",
+		"descr":" A genetically inferior man assumes the identity of a superior one in order to pursue his lifelong dream of space travel."
+	},
+	{
+		"id":"08",
+		"title":"Ghost in the Shell",
+		"category":"series",
+		"img":"ghostintheshell.jpg",
+		"likes":"120",
+		"isLiked":"false",
+		"descr":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, ratione molestiae impedit at."
+	},
+	{
+		"id":"09",
+		"title":"I Love You to Death",
+		"category":"mov",
+		"img":"iloveyoutodeath.jpg",
+		"likes":"69",
+		"isLiked":"false",
+		"descr":"Joey owns a pizza parlor, and is a serial womanizer. Rosalie goes to extremes when she finds he has been cheating."
+	},
+	{
+		"id":"10",
+		"title":"Limitless",
+		"category":"series",
+		"img":"limitless.jpg",
+		"likes":"9",
+		"isLiked":"false",
+		"descr":"A mysterious pill enables the user to access one hundred percent of his brain abilities..."
+	},
+	{
+		"id":"11",
+		"title":"Orphan Black",
+		"category":"series",
+		"img":"orphanblack.jpg",
+		"likes":"19",
+		"isLiked":"false",
+		"descr":"A hustler is pulled into a conspiracy after witnessing the suicide of a girl who looks just like her."
+	},
+	{
+		"id":"12",
+		"title":"Ranma &frac12;",
+		"category":"series",
+		"img":"ranma12.jpg",
+		"likes":"102",
+		"isLiked":"false",
+		"descr":"The story about a boy, who turns female when hit with cold water and male when hit with hot..."
+	},
+	{
+		"id":"13",
+		"title":"Requiem for a Dream",
+		"category":"mov",
+		"img":"requiemforadream.jpg",
+		"likes":"68",
+		"isLiked":"false",
+		"descr":"The drug-induced utopias of four Coney Island people are shattered when their addictions run deep."
+	},
+	{
+		"id":"14",
+		"title":"Star Trek: Discovery",
+		"category":"series",
+		"img":"startrekdiscovery.jpg",
+		"likes":"45",
+		"isLiked":"false",
+		"descr":"Ten years before Kirk, Spock, and the Enterprise..."
+	},
+	{
+		"id":"15",
+		"title":"Stranger Things",
+		"category":"series",
+		"img":"strangerthings.jpg",
+		"likes":"40",
+		"isLiked":"false",
+		"descr":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam."
+	},
+	{
+		"id":"16",
+		"title":"The Darjeeling Limited",
+		"category":"mov",
+		"img":"thedarjeelinglimited.jpg",
+		"likes":"34",
+		"isLiked":"false",
+		"descr":"Three brothers travel across India by train in an attempt to bond with each other. "
+	},
+	{
+		"id":"17",
+		"title":"True Romance",
+		"category":"mov",
+		"img":"trueromance.jpg",
+		"likes":"15",
+		"isLiked":"false",
+		"descr":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, dignissimos, animi."
+	},
+	{
+		"id":"18",
+		"title":"Westworld",
+		"category":"mov",
+		"img":"westworld.jpg",
+		"likes":"77",
+		"isLiked":"false",
+		"descr":"Explore a world in which every human appetite can be indulged without consequence."
+	}
+]`
